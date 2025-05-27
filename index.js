@@ -1,5 +1,6 @@
 import fs from 'fs';
 import "dotenv/config";
+import https from 'https';
 import path from 'path';
 import axios from 'axios';
 import { Wallet } from 'ethers';
