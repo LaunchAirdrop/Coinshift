@@ -43,6 +43,12 @@ node index.js
 npm install dotenv
 ```
 
+### * Use Proxy (optional)
+
+```bash
+nano proxy.txt
+```
+
 
 # The bot will:
 1. Login wallet
