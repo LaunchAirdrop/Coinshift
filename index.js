@@ -1,5 +1,6 @@
 import fs from 'fs';
 import "dotenv/config";
+import path from 'path';
 import axios from 'axios';
 import { Wallet } from 'ethers';
 import ora from 'ora';
