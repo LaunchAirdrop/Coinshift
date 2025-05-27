@@ -352,7 +352,7 @@ Resources:
 }
 
 async function runCycleOnce(walletKey) {
-  const loginSpinner = ora(chalk.cyan(" Memproses login...")).start();
+  const loginSpinner = ora(chalk.cyan("  login...")).start();
   const loginData = await doLogin(walletKey, false);
   if (!loginData) {
     loginSpinner.fail(chalk.red("Failed login after max attempt. Next account."));
